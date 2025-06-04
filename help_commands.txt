@@ -1,0 +1,42 @@
+# Bot Help & Commands
+
+## Admin Commands
+
+- `/start` — Start the bot
+- `/add_video` — Add a new video (conversation)
+- `/list_videos` — List all videos in the database
+- `/add_channel [channel_id] [name]` — Add a channel to the database
+- `/list_channels` — List all channels
+- `/add_premium [user_id] [months]` — Add premium access to a user
+- `/remove_premium [user_id]` — Remove premium access from a user
+- `/list_premium` — List all premium users
+- `/setup_special_channel` — Add the special channel (ID: -1002602136007) to the bot
+- `/help` — Show this help message
+
+## User Commands
+
+- `/start` — Start the bot and check your token status
+- `/help` — Show this help message
+
+## Channel Posting
+
+- When a video is posted in a registered channel, the bot will automatically generate a short link and reply in the channel.
+
+## Token System
+
+- Users must join required channels to use the bot
+- Users must refresh their token by clicking the "Refresh Token" button and passing through an ad
+- Token is valid for 24 hours
+- Premium users do not need a token and have ad-free access
+
+## Premium Membership
+
+- To remove all ads and token restrictions, purchase premium via UPI/QR (see in-bot instructions)
+- Use the "Remove All Ads In One Click" button in the bot for payment details
+
+## Troubleshooting
+
+- If videos aren't generating URLs, make sure the bot is running and has admin privileges in your channel
+- Use `/list_channels` to see if your channel is registered
+- Use `/setup_special_channel` if your channel is not listed
+- If you have issues with token refresh, check your ad blocker or try a different browser
